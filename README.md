@@ -1,16 +1,22 @@
 # Social-Media-Graph-Database
-A graph of a social media network in Neo4J demonstrating big data concepts
+Developed a graph database model for a social media network using Neo4j, leveraging its native graph storage and Cypher query language to efficiently represent and analyze complex user relationships and interactions. The project models users, posts, and connections as nodes and relationships, enabling real-time queries for friend recommendations, mutual connections, and content discovery
 
 ## Requirements
 - A computer (desktop / laptop)
 - A suiteable IDE to create and format code (VS Code recommended)
 - A software that creates graph databases out of cypher queries (Neo4J desktop recommended)
 
-## Aims
-This project highlights Big Data concepts such as unstructured / semi-structured data, along with:
-- Volume : The huge amount of nodes and relationships between them
-- Velocity : All of the data existing and querying all at once
-- Variety : Multiple types of data existing all at once (integers, strings, floats)
+## Key features
+
+- Designed a flexible property graph schema to represent users, posts, and their interactions, supporting the dynamic nature of social networks.
+
+- Implemented efficient relationship queries using Cypher, enabling rapid retrieval of user connections, shared interests, and network paths.
+
+- Demonstrated performance and scalability benefits of Neo4j over traditional relational databases for highly connected social data.
+
+- Integrated Python scripts for data import, manipulation, and analysis, showcasing end-to-end workflow from data ingestion to insight generation.
+
+- Explored use cases such as friend-of-friend discovery, influencer identification, and personalized content recommendations.
 
 ## Questions to run analytical queries against the graph db
 1. Find users with the highest combined count of posts and comments, and their corresponding interaction rates
